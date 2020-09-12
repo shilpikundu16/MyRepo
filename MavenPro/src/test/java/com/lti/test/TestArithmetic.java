@@ -19,5 +19,9 @@ public class TestArithmetic {
 	public void testSum() {
 		assertEquals(10, arth.sum(4, 6));
 	}
+	@Test
+	public void testMax() {
+		assertEquals(4, arth.sum(6, 4));
+	}
 
 }
