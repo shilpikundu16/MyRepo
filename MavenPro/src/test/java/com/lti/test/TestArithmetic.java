@@ -21,7 +21,7 @@ public class TestArithmetic {
 	}
 	@Test
 	public void testMax() {
-		assertEquals(6, arth.sum(6, 4));
+		assertEquals(6, arth.max(6, 4));
 	}
 
 }
