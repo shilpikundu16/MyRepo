@@ -27,7 +27,7 @@ public class TestArithmetic {
 	
 	@Test
 	public void testMin() {
-		assertEquals(6, arth.min(6, 4));
+		assertEquals(4, arth.min(6, 4));
 	}
 
 }
