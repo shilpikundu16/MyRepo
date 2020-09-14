@@ -20,8 +20,8 @@ public class TestArithmetic {
 		assertEquals(10, arth.sum(4, 6));
 	}
 	@Test
-	public void testMultiply() {
-		assertEquals(24, arth.multiply(6, 4));
+	public void testsubtract() {
+		assertEquals(2, arth.subtract(6, 4));
 	}
 	@Test
 	public void testMax() {
