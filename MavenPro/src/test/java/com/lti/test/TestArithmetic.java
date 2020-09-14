@@ -20,6 +20,10 @@ public class TestArithmetic {
 		assertEquals(10, arth.sum(4, 6));
 	}
 	@Test
+	public void testMultiply() {
+		assertEquals(24, arth.multiply(6, 4));
+	}
+	@Test
 	public void testMax() {
 		assertEquals(6, arth.max(6, 4));
 	}
