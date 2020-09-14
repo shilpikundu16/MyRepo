@@ -19,6 +19,7 @@ public class TestArithmetic {
 	public void testSum() {
 		assertEquals(10, arth.sum(4, 6));
 	}
+	
 	@Test
 	public void testsubtract() {
 		assertEquals(2, arth.subtract(6, 4));
@@ -26,6 +27,11 @@ public class TestArithmetic {
 	@Test
 	public void testMax() {
 		assertEquals(6, arth.max(6, 4));
+	}
+	
+	@Test
+	public void testMin() {
+		assertEquals(4, arth.min(6, 4));
 	}
 
 }
