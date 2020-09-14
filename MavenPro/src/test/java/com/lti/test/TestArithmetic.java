@@ -31,6 +31,11 @@ public class TestArithmetic {
 	}
 	
 	@Test
+	public void testdivide() {
+		assertEquals(16, arth.divide(64, 4));
+	}
+	
+	@Test
 	public void testMax() {
 		assertEquals(6, arth.max(6, 4));
 	}
